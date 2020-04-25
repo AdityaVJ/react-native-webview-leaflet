@@ -23,8 +23,14 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.webviewdemo"
+    },
     "ios": {
       "supportsTablet": true
-    }
-  }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "WebViewDemoApp",
+  "name": "webviewdemo"
 }
